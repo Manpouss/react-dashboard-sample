@@ -17,33 +17,30 @@ Note: This will impact Vite dev & build performances.
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-🟨 README – react-dashboard-sample
-📊 Dashboard React – Sample Project
+📊 React Dashboard – Sample Project
 
-Ce projet montre comment construire un petit dashboard React moderne :
+Un mini dashboard moderne construit avec React + Vite, idéal pour démontrer tes compétences front-end :
+✔ Composants réutilisables
+✔ UI propre & responsive
+✔ Tableaux, filtres, graphiques
+✔ Architecture simple et professionnelle
 
-- Tableau de données
-- Filtres,
-- Graphiques simples,
-- Composants réutilisables.
+🚀 Tech Stack
 
-L’objectif est de démontrer un front-end clair et professionnel
-
-🧱 Stack
-
-- React (Vite ou CRA)
+- React (Vite)
 - JavaScript
-- TailwindCSS ou CSS
-- Recharts / Chart.js 
+- TailwindCSS ou CSS modules
+- Recharts / Chart.js (selon l’implémentation)
+- ESLint + SWC (automatique via Vite)
 
 📂 Structure
 
     react-dashboard-sample/
     ├── src/
-    │ ├── components/
-    │ ├── pages/
-    │ ├── data/
-    │ └── App.jsx
+    │ ├── components/   # Cartes, widgets, graphiques, UI réutilisable
+    │ ├── pages/        # Pages du dashboard
+    │ ├── data/         # Données mock ou JSON
+    │ └── App.jsx       # Entrée principale
     ├── public/
     └── README.md
 
@@ -52,14 +49,34 @@ L’objectif est de démontrer un front-end clair et professionnel
     npm install
     npm run dev
 
-📈 Fonctionnalités prévues
+Le projet démarre sur :
+👉 http://localhost:5173/
 
-- Table triable
-- Graphiques dynamiques
-- Filtres / recherches
-- UI responsive
+
+✨ Fonctionnalités prévues
+
+📈 Visualisation & UI
+
+- Graphiques dynamiques (courbes, barres, KPIs)
+- Cartes & widgets personnalisés
+- Table triable & filtrable
+
+🔍 Interaction
+
+- Filtres par catégorie / recherche
+- Données mock pour simuler un vrai dashboard
+
+📱 Responsive
+
+- Adapté desktop, tablette, mobile
+
+🧩 Améliorations futures (roadmap)
+
+- Authentification fictive (UI only)
+- Thème clair/sombre
+- API FastAPI connectée (si tu veux montrer un full-stack sample)
 
 📬 Contact
 
-    Email : diawaramantcha@gmail.com
-    LinkedIn : @mantcha-diawara
+Email : diawaramantcha@gmail.com
+LinkedIn : https://linkedin.com/in/mantcha-diawara
