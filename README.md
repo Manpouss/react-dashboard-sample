@@ -22,41 +22,42 @@ If you are developing a production application, we recommend using TypeScript wi
 
 Ce projet montre comment construire un petit dashboard React moderne :
 
-    tableau de données,
-    filtres,
-    graphiques simples,
-    composants réutilisables.
+- Tableau de données
+- Filtres,
+- Graphiques simples,
+- Composants réutilisables.
 
-L’objectif est de démontrer un front-end clair et professionnel.
+L’objectif est de démontrer un front-end clair et professionnel
+
 🧱 Stack
 
-    React (Vite ou CRA)
-    JavaScript
-    TailwindCSS ou CSS
-    Recharts / Chart.js (facultatif)
+- React (Vite ou CRA)
+- JavaScript
+- TailwindCSS ou CSS
+- Recharts / Chart.js 
 
 📂 Structure
 
-react-dashboard-sample/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── data/
-│ └── App.jsx
-├── public/
-└── README.md
+    react-dashboard-sample/
+    ├── src/
+    │ ├── components/
+    │ ├── pages/
+    │ ├── data/
+    │ └── App.jsx
+    ├── public/
+    └── README.md
 
 ▶️ Lancer le projet
 
-- npm install
-- npm run dev
+    npm install
+    npm run dev
 
 📈 Fonctionnalités prévues
 
-    Table triable
-    Graphiques dynamiques
-    Filtres / recherches
-    UI responsive
+- Table triable
+- Graphiques dynamiques
+- Filtres / recherches
+- UI responsive
 
 📬 Contact
 
