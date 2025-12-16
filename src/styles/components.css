@@ -1,0 +1,21 @@
+/* components.css */
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.card-value {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
