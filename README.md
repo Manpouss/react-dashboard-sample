@@ -2,10 +2,11 @@
 # 📊 React Dashboard – Sample Project
 
 Un mini dashboard moderne construit avec **React + Vite**, idéal pour démontrer tes compétences front-end “app-like” :  
-✔ Composants réutilisables (KPI cards)  
-✔ Dashboard **data-driven**  (données mock)
-✔ Tableaux + **recherche** + **filtre par statut**
-✔ UI simple, propre et responsive 
+
+    ✔ Composants réutilisables (KPI cards)  
+    ✔ Dashboard **data-driven**  (données mock)
+    ✔ Tableaux + **recherche** + **filtre par statut**
+    ✔ UI simple, propre et responsive 
 
 ## ✅ Features (v1.0.0)
 

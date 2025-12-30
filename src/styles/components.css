@@ -19,3 +19,64 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+/* ---------- Layout / Pages ---------- */
+
+.page {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin: 0 0 12px 0;
+}
+
+/* ---------- Toolbar (search + filter) ---------- */
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.input,
+.select {
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+}
+
+.input {
+  flex: 1;
+}
+
+/* ---------- Table ---------- */
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  text-align: left;
+  padding: 12px;
+  background: #f0f2f5;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}

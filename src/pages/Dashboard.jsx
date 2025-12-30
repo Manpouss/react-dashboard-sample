@@ -21,40 +21,28 @@ export default function Dashboard() {
   });
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="page">
       {/* KPI Cards */}
-      <div style={{
-        display: "grid",
-        gap: "20px",
-        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-        padding: "20px"
-      }}>
-
+      <div className="grid">
         {stats.map((item) => (
           <StatCard key={item.label} label={item.label} value={item.value} />
         ))}
       </div>
 
       {/* Filters */}
-      <div
-        style={{
-          display: "flex",
-          gap: "12px",
-          marginBottom: "12px",
-        }}
-      >
+      <div className="toolbar">
         <input
           type="text"
           placeholder="Search by name..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{ padding: "8px", flex: 1 }}
+          className="input"
         />
 
         <select
           value={statusFilter}
           onChange={(e) => setStatusFilter(e.target.value)}
-          style={{ padding: "8px" }}
+          className="select"
         >
           <option value="All">All</option>
           <option value="Open">Open</option>
@@ -64,7 +52,7 @@ export default function Dashboard() {
       </div>
 
       {/* Table */}
-      <h2 style={{ margin: "0 0 12px 0" }}>Latest items</h2>
+      <h2 className="section-title">Latest items</h2>
       <DataTable rows={filteredItems} />
     </div>
   );
